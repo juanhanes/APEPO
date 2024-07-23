@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.header {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    flex: 1;
+    width: 80%;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    margin: 0;
+    
+    text-align: left;
+
+}
+
+.articles .title {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    text-align: left;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.articles .content {
+    display: none;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.author-date {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+    font-size: 0.75rem;
+    background-color: #ffffff;
+}
